@@ -1,0 +1,71 @@
+movie1=movstory(name[0])
+movie2=movstory(name[1])
+movie3=movstory(name[2])
+movie4=movstory(name[3])
+movie5=movstory(name[4])
+
+def movie1res():
+  movie1pos=analysepos(movie1)
+  movie1neg=analyseneg(movie1)
+  movie1neu=analyseneu(movie1)
+  if movie1neu ==1:
+      print('neutral')
+  elif movie1neg ==1:
+      print('negative')
+  elif movie1pos==1:
+      print('positive')
+
+def movie2res():
+  movie2pos = analysepos(movie2)
+  movie2neg = analyseneg(movie2)
+  movie2neu = analyseneu(movie2)
+  if movie2neu ==1:
+      print('neutral')
+  elif movie2neg ==1:
+      print('negative')
+  elif movie2pos==1:
+      print('positive')
+
+def movie3res():
+  movie3pos = analysepos(movie3)
+  movie3neg = analyseneg(movie3)
+  movie3neu = analyseneu(movie3)
+  if movie3neu ==1:
+      print('neutral')
+  elif movie3neg ==1:
+      print('negative')
+  elif movie3pos==1:
+      print('positive')
+
+def movie4res():
+  movie4pos = analysepos(movie4)
+  movie4neg = analyseneg(movie4)
+  movie4neu = analyseneu(movie4)
+  if movie4neu ==1:
+      print('neutral')
+  elif movie4neg ==1:
+      print('negative')
+  elif movie4pos==1:
+      print('positive')
+
+def movie5res():
+  movie5pos = analysepos(movie5)
+  movie5neg = analyseneg(movie5)
+  movie5neu = analyseneu(movie5)
+  if movie5neu ==1:
+      result= 'neutral'
+      return result
+  elif movie5neg ==1:
+      result='negative'
+      return result
+  elif movie5pos==1:
+      result='positive'
+      return result
+
+
+
+result1=movie1res()
+result2=movie2res()
+result3=movie3res()
+result4=movie4res()
+result5=movie5res()
